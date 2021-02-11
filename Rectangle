@@ -1,0 +1,32 @@
+/*
+*
+*/
+public class MyRectangle{
+  private double width;
+  private double height;
+  public MyRectangle(double width, double height){
+    this.width = width;
+    this.height = height;
+  }
+  //Getters
+  public double getWidth(){
+    return width;
+  }
+  public double getHeight(){
+    return height;
+  }
+  //Setters
+  public void setHeight(){
+    this.height = height;
+  }
+  public void setWidth(){
+    this.width = width;
+  }
+  //Calculations
+  public double calculateArea(){
+    return height * width;
+  }
+  public double calculatePerimeter(){
+    return (2 * height) + (2 * width);
+  }
+}
