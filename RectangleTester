@@ -1,0 +1,13 @@
+/*
+*
+*/
+public class RectangleTester{
+  public static void main(String[] args){
+    Rectangle box = new Rectangle(5,10);
+    System.out.println("Width: " + box.getWidth());
+    System.out.println("Height: " + box.getHeight());
+    System.out.println("Area: " + box.calculateArea());
+    System.out.println("Perimeter: " + box.calculatePerimeter());
+   }
+ }  
+   
